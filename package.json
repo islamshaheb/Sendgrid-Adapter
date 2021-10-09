@@ -1,0 +1,19 @@
+{
+  "name": "sendgrid-adapter",
+  "version": "1.0.0",
+  "description": "sendgrid adapter",
+  "main": "index.js",
+  "license": "ISC",
+  "dependencies": {
+    "@sendgrid/mail": "^7.4.5",
+    "dotenv": "^5.0.1",
+    "koa": "^2.13.1",
+    "koa-bodyparser": "^2.5.0",
+    "koa-router": "^10.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": ""
+}
